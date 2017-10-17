@@ -14,3 +14,13 @@ def get_initials(name):
     """
 
     # your code here
+    result = ""
+    if name.split()[1] == "NA":
+        for item in name.split():
+            result.join(item[0])+"."
+        return result
+    else:
+        for item in name.split():
+            result.join(item[0])+"."
+	return result
+
