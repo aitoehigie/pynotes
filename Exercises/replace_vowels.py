@@ -9,3 +9,13 @@ def replace_vowels(text):
     """
 
     # your code here
+    x = list(text)
+    for item in x:
+        if item in ["a", "e", "i", "o", "u"]:
+            x[x.index(item)] = " "
+        else:
+            continue
+    return "".join(x)
+
+        
+        
