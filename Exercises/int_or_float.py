@@ -18,6 +18,10 @@ def is_int(n):
     """
 
     # your code here
+    if type(n) == "int":
+        return "True"
+    else:
+        return "False"
 
     
 def is_float(n):
@@ -30,6 +34,10 @@ def is_float(n):
     """
 
     # your code here
+    if type(n) == "float":
+        return "True"
+    else:
+        return "False"
 
 
 # Testing the functions
