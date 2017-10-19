@@ -10,3 +10,6 @@ def get_min(numbers):
     """
 
     # your code here
+    numbers.reverse()
+    return [numbers.pop()]
+
